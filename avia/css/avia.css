@@ -184,7 +184,7 @@ align-items: center;
 .sub-header-list li a{
     color: #616161;
 }
-.faq{
+.avia{
     color: #616161;
     padding-bottom: 20px;
     border-bottom: 4px #DD4053 solid;
@@ -203,6 +203,7 @@ align-items: center;
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
+    margin-right: 10px;
 }
 .switch li a{
     color: #969696;
@@ -210,11 +211,101 @@ align-items: center;
 .switch li .switch-faq{
     color: #171717;
 }
-/* контент */
 
+
+/* контент */
+.center{
+    margin-top: 48px;
+    margin-left: 115px;
+    display: flex;
+}
+.titl{
+    width: 224px;
+    height:126px;
+}
+.titl h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    text-transform: uppercase;
+
+    color: #232323;
+}
+/* link */
+.list{
+    width: 800px;
+    height: 399px;
+    margin-left: 54px;
+
+}
+.block-item{
+    cursor: pointer;
+    display: inline;
+    list-style-type: none;
+}
+.block-item.active::marker{
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 5px 7px;
+    background-color: #DD4053;
+    
+    color: blue;
+}
+.block-title{
+    position: relative;
+    display: flex;
+    padding: 30px 0;
+    width: 800px;
+    border-bottom: 1px #D0D0D0 solid;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+}
+.block-title.active{
+    padding: 15px 0;
+    border-bottom: 0px #ffffff solid;
+}
+
+.block-title.active span {
+    display: block;
+}
+.block-social-icon{
+    position: absolute;
+    right: 0;
+}
+.block-social-icon.active{
+    fill: #DD4053;
+    transform: rotate(180deg);
+}
+.number{
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 6px 6px;
+    background-color: #D0D0D0;
+}
+.number.active{
+    background-color: #DD4053;
+}
+.block-text{
+    display: none;
+    border-bottom: 1px #D0D0D0 solid;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 30px;
+}
 
 
 /* footer */
+
+
+
 .footer{
     margin-top: 56px;
     width: 100%;
