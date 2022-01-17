@@ -236,9 +236,8 @@ align-items: center;
 /* link */
 .list{
     width: 800px;
-    height: 399px;
+    height: 228px;
     margin-left: 54px;
-
 }
 /* иblock-item */
 .block-item{
@@ -425,11 +424,8 @@ align-items: center;
 }
 
 /* footer */
-
-
-
 .footer{
-    margin-top: 56px;
+    margin-top: 90px;
     width: 100%;
     height: 260px;
     background-color: #F8F8F8;
