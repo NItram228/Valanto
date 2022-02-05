@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style/FAQ.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/agent.css">
 </head>
 <body>
     <div class="header">
@@ -114,8 +114,8 @@
                     <li>
                         <a href="">Каталог туров</a>
                     </li>
-                    <li>
-                        <a href="../agent/agent.html">Агентам</a>
+                    <li class="agent">
+                        <a href="">Агентам</a>
                         <svg class="team-social-icon" width="6" height="6">
                             <use href="./img/sub-header/icons-2.svg#icon-arrow" use>
                         </svg>
@@ -129,7 +129,7 @@
                     <li>
                         <a href="">Блог</a>
                     </li>
-                    <li class="faq">
+                    <li>
                         <a href="../FAQ/FAQ.html">FAQ</a>
                     </li>
                     <li>
@@ -145,72 +145,154 @@
     <ul class="switch">
         <li><a href="../index.html">Главная</a></li>
         <li>/</li>
-        <li><a href="" class="switch-faq">FAQ</a></li>
+        <li><a href="">Авиа</a></li>
+        <li>/</li>
+        <li><a href="" class="switch-faq">Чартерные рейсы в Хорватию</a></li>
+
     </ul>
 
     <div class="center">
-        <div class="questions">
-            <h2>остались вопросы?</h2>
-            <div class="picture">
-                <svg width="351" height="366" viewBox="0 0 351 366" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity="0.5" d="M225.997 317.641C102.812 315.772 100.501 222.702 101.303 196.892C102.104 171.083 130.03 143.012 143.431 150.894C156.832 158.777 153.154 178.629 134.905 190.284C112.186 204.794 102.871 201.68 82.2732 193.763C61.6756 185.845 38.1253 138.276 46.2301 106.118C54.3349 73.9594 70.1221 47.9014 99.3873 29.6666" stroke="#767676" stroke-linejoin="round" stroke-dasharray="6 4"/>
-                    <circle cx="100.233" cy="29.2371" r="7" transform="rotate(-66.3371 100.233 29.2371)" fill="#454545"/>
-                    <circle cx="100.233" cy="29.2373" r="3" transform="rotate(-66.3371 100.233 29.2373)" fill="white"/>
-                    <path d="M213.774 328.819L224.236 320.042L228.502 320.417C229.175 320.476 229.867 320.386 230.526 320.147L230.96 319.964C231.54 319.755 231.933 319.244 231.987 318.631C232.041 318.018 231.742 317.447 231.231 317.153L230.79 316.871C230.205 316.534 229.541 316.325 228.866 316.266L224.601 315.892L215.828 305.431C215.381 304.898 214.754 304.571 214.061 304.51L212.845 304.404C212.655 304.387 212.472 304.475 212.367 304.634C212.261 304.792 212.249 304.996 212.339 305.164L217.747 315.493C216.169 315.452 214.847 315.468 213.238 315.488L211.589 315.509L209.508 311.666C209.423 311.511 209.269 311.41 209.095 311.394L208.057 311.303C207.901 311.29 207.745 311.348 207.636 311.462C207.525 311.577 207.474 311.734 207.495 311.89L208.109 316.536L206.695 321.005C206.683 321.041 206.676 321.078 206.673 321.116C206.662 321.233 206.692 321.351 206.758 321.451C206.847 321.582 206.99 321.666 207.147 321.68L208.185 321.771C208.359 321.786 208.529 321.714 208.638 321.576L211.353 318.153L212.978 318.462C214.557 318.761 215.855 319.007 217.416 319.241L210.295 328.471C210.177 328.623 210.154 328.824 210.23 328.997C210.305 329.172 210.47 329.291 210.66 329.308L211.876 329.415C212.569 329.476 213.244 329.264 213.774 328.819Z" fill="#454545"/>
-                </svg>
-                <img src="./img/center/questions.png" alt="" class="questions-img">
-            </div> 
+        <div class="titl">
+            <h2>Чартерные рейсы 
+                в Хорватию</h2>
+             
+            <div class="titl__img">
+                <img src="./img/center/title/airplane.png" alt="">
+            </div>    
         </div>
 
-        <ul class="list">
+        <ul  class="list">
             <li class="block-item">
-                <div class="block-title"><p class="number">1</p>Lorem ipsum dolor sit amet, consectetur adipiscing 1 
+                <div class="block-title">Чартерные рейсы в Пулу
                     <svg class="block-social-icon" width="7" height="25">
                         <use href="img/center/list/icon.svg#icon-Vector"></use>
                     </svg>
                 </div>
-                <div class="block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <div class="block-text">
+                    <p>В 2021 году чартерная программа в Хорватию будет представлена следующими рейсами:</p>
+                    <h3 class="text__title">Киев-Пула-Киев, авиакомпания Роза Ветров</h3>
+                    <ul class="taxt__list">
+                        <li>
+                            <p>с 12.06.2021 по 25.09.2021 по субботам, борт А321</p>
+                        </li>
+                        <li>
+                            <p>с 22.06.2021 по 07.09.2021 по вторникам, борт А321</p>
+                        </li>
+                        <li>
+                            <p>с 24.06.2021 по 02.09.2021 по четвергам, борт Е145</p>
+                        </li>
+                    </ul>
+                    <div class="schedule">
+                        <h3 class="schedule__title">Расписание:</h3>
+                        <p>7W771 Киев-Пула KBP-PUY 12:10-13:35</p>
+                        <div class="block__line"></div>
+                        <p>7W772 Пула-Киев PUY-KBP 14:35-17:50</p>
+
+                    </div>
+                    <div class="vip">
+                        <h3 class="vip__title">VIP сервис в аэропорту Пула</h3>
+                        <p class="vip__teaxt">
+                            VIP fast track – 50€ для 1-4 чел <br>
+                            Baggage man – 50€ для 1-4 чел <br>
+                            VIP Salon – 150€ за 2 часа. Еда и напитки не включены в стоимость. <br>
+                            Трансфер самолет-аэропорт, аэропорт-самолет: 40€ за машину <br> для 1-4 чел в одну сторону
+                        </p>
+                    </div>
+                    <div class="conteiner__button">
+                    <a href="" class="tours">Туры в Хорватии</a>
+                    <a href="" class="buy-online">Купить онлайн</a>
+                    </div>
                 </div>
             </li>
+
             <li class="block-item-two">
-                <div class="block-title-two"><p class="number-two">2</p>Lorem ipsum dolor sit amet, consectetur adipiscing 2 
+                <div class="block-title-two">Чартерные рейсы в Сплит 
                     <svg class="block-social-icon-two" width="7" height="25">
                         <use href="img/center/list/icon.svg#icon-Vector"></use>
                     </svg>
                 </div>
-                <div class="block-text-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <div class="block-text-two">
+                    <p>В 2021 году чартерная программа в Хорватию будет представлена следующими рейсами:</p>
+                    <h3 class="text__title">Киев-Пула-Киев, авиакомпания Роза Ветров</h3>
+                    <ul class="taxt__list">
+                        <li>
+                            <p>с 12.06.2021 по 25.09.2021 по субботам, борт А321</p>
+                        </li>
+                        <li>
+                            <p>с 22.06.2021 по 07.09.2021 по вторникам, борт А321</p>
+                        </li>
+                        <li>
+                            <p>с 24.06.2021 по 02.09.2021 по четвергам, борт Е145</p>
+                        </li>
+                    </ul>
+                    <div class="schedule">
+                        <h3 class="schedule__title">Расписание:</h3>
+                        <p>7W771 Киев-Пула KBP-PUY 12:10-13:35</p>
+                        <div class="block__line"></div>
+                        <p>7W772 Пула-Киев PUY-KBP 14:35-17:50</p>
+
+                    </div>
+                    <div class="vip">
+                        <h3 class="vip__title">VIP сервис в аэропорту Пула</h3>
+                        <p class="vip__teaxt">
+                            VIP fast track – 50€ для 1-4 чел <br>
+                            Baggage man – 50€ для 1-4 чел <br>
+                            VIP Salon – 150€ за 2 часа. Еда и напитки не включены в стоимость. <br>
+                            Трансфер самолет-аэропорт, аэропорт-самолет: 40€ за машину <br> для 1-4 чел в одну сторону
+                        </p>
+                    </div>
+                    <div class="conteiner__button">
+                    <a href="" class="tours">Туры в Хорватии</a>
+                    <a href="" class="buy-online">Купить онлайн</a>
+                    </div>
                 </div>
             </li>
+            
             <li class="block-item-three">
-                <div class="block-title-three"><p class="number-three">3</p>Lorem ipsum dolor sit amet, consectetur adipiscing 3 
+                <div class="block-title-three">Чартерные рейсы в Дубровник 
                     <svg class="block-social-icon-three" width="7" height="25">
                         <use href="img/center/list/icon.svg#icon-Vector"></use>
                     </svg>
                 </div>
-                <div class="block-text-three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </div>
-            </li>
-            <li class="block-item-four">
-                <div class="block-title-four"><p class="number-four">4</p><span><span>Lorem ipsum dolor sit amet, consectetur adipiscing 4 </span> </span>
-                        <svg class="block-social-icon-four" width="7" height="25">
-                            <use href="img/center/list/icon.svg#icon-Vector"></use>
-                        </svg>
-                </div>
-                <div class="block-text-four">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <div class="block-text-three">
+                    <p>В 2021 году чартерная программа в Хорватию будет представлена следующими рейсами:</p>
+                    <h3 class="text__title">Киев-Пула-Киев, авиакомпания Роза Ветров</h3>
+                    <ul class="taxt__list">
+                        <li>
+                            <p>с 12.06.2021 по 25.09.2021 по субботам, борт А321</p>
+                        </li>
+                        <li>
+                            <p>с 22.06.2021 по 07.09.2021 по вторникам, борт А321</p>
+                        </li>
+                        <li>
+                            <p>с 24.06.2021 по 02.09.2021 по четвергам, борт Е145</p>
+                        </li>
+                    </ul>
+                    <div class="schedule">
+                        <h3 class="schedule__title">Расписание:</h3>
+                        <p>7W771 Киев-Пула KBP-PUY 12:10-13:35</p>
+                        <div class="block__line"></div>
+                        <p>7W772 Пула-Киев PUY-KBP 14:35-17:50</p>
+
+                    </div>
+                    <div class="vip">
+                        <h3 class="vip__title">VIP сервис в аэропорту Пула</h3>
+                        <p class="vip__teaxt">
+                            VIP fast track – 50€ для 1-4 чел <br>
+                            Baggage man – 50€ для 1-4 чел <br>
+                            VIP Salon – 150€ за 2 часа. Еда и напитки не включены в стоимость. <br>
+                            Трансфер самолет-аэропорт, аэропорт-самолет: 40€ за машину <br> для 1-4 чел в одну сторону
+                        </p>
+                    </div>
+                    <div class="conteiner__button">
+                    <a href="" class="tours">Туры в Хорватии</a>
+                    <a href="" class="buy-online">Купить онлайн</a>
+                    </div>
                 </div>
             </li>
         </ul>
 
     </div>
-
 
     <div class="footer">
         <div class="footer-infomatin">
@@ -267,10 +349,12 @@
         </div>
     </div>
 
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- Подлючение слайдера Slick -->
-  <script src="./js/slick.min.js"></script>
-  <!-- Подключаем файл скриптов-->
-  <script src="./js/faq.js"></script> 
+    <!-- Подлючение слайдера Slick -->
+    <script src="./js/slick.min.js"></script>
+    <!-- Подключаем файл скриптов-->
+    <script src="./js/agent.js"></script>
 </body>
 </html>
